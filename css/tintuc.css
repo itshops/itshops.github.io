@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+.member{
+	clear:both;
+	width:65%;
+	margin-top:10px;
+	
+	
+
+}
+.hinh{
+float:left;
+width:40%;
+padding:10px;
+}
+.noidung{
+width:50%;
+float:left;
+font-size:25px;
+text-align:center;
+padding-top:30px ;
+}
+.hinh a:link{
+	text-decoration:none;
+}
+.hinh a:visited{
+	color:#000;
+}
+.noidung a:link{
+	text-decoration:none;
+}
+.noidung a:visited{
+	color:#000;
+}
+.noidung a:active{
+	color:#F00;
+}
+
+/*dang ky */
+
+.canle {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right:420px;
+  padding-right:30px;
+  float:right;
+  clear:both;
+  font-size:22px;
+  color:#000;
+  }
+label { 
+  display: block;
+  float: left;
+  margin-top: 12px;
+  width: 200px;  
+  text-align:left;
+}
+#dau{
+	background-color:lightblue;
+	margin:0;
+	color:#000;
+	font-size:40px;
+	padding-right:30px;
+}
+.khung {
+  width: 300px;
+  border: 2px solid #dcdcdc;
+  border-radius:3px;
+  font-size:18px;
+  padding: 9px;
+  color: #676767;
+}
+.nutdk {
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  color: #63532d;
+  font-size:20px;
+  line-height: 29px;
+  border: 1px solid #cba957;
+}
+.submitandreset
+{
+	 margin-bottom: 15px;
+ 	 margin-top: 15px;
+  	margin-right:420px;
+	float:right;
+  	clear:both;
+	margin:20px;
+	padding-right:500px;
+	display: block;
+}
+input:valid{
+	outline: 3px solid green;
+
+}
+input:focus:invalid{
+	outline: 3px solid red;
+}
+
+/*Đăng nhập*/
+
+.khung1 {
+  width: 300px;
+  border: 2px solid #dcdcdc;
+  margin-right:20px;
+
+  font-size:18px;
+  padding: 9px;
+  color: #676767;
+ 
+}
+#dau1{
+	background-color:lightblue;
+	margin-top:0px;
+	font-size:40px;
+	color:#000;
+}
+.nutdn {
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  color: #63532d;
+  font-size:20px;
+  line-height: 29px;
+  border: 1px solid #cba957;
+  margin-top:45px;
+}
+.forgetpassword{
+	float:left;
+	font-size:20px;
+	padding-left:430px;
+	margin-top:50px;
+	
+}
+.forgetpassword a:link{
+	text-decoration:none;
+}
+.forgetpassword a:visited{
+	color:#00F;
+}
+.dangnhap1{
+	float:right;
+	padding-right:450px;
+	
+}
+
+
